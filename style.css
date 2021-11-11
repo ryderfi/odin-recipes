@@ -1,0 +1,64 @@
+/*style.css
+
+Testing out some styling on this simple and pathetic html website
+
+Don't hate
+*/
+
+html,
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: gainsboro
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.button {
+    background-color:rgb(235, 227, 119);
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    display: block;
+}
+
+.button:hover {
+    background-color:rgb(209, 196, 14);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.button.recipe {
+    margin: auto;
+    width: 50%;
+}
+
+.home-center {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+
+.lets-cook {
+    text-align: center;
+    width: auto;
+    max-width: 50px;
+}

@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Odin Recipes</title>
     <meta name="description" content="This is a simple html recipe list.">
 </head>
 <body>
+    <div class="home-center">
     <h1>Odin Recipes</h1>
 
-    <img src="img/gordon.gif" alt="gordon ramsay gif saying no">
+    <img src="img/gordon.gif" alt="gordon ramsay gif saying no" style="width: 100%">
 
     <h2>Enjoy Some of my Favorite Recipes</h2>
     <p>Approved by Gordon Ramsay himself:</p>
-    
-    <ul>
-        <li><a href="recipes/ramen.html">Some Tasty Ramen</a></li>
-        <li><a href="recipes/breakfastburrito.html">Budget-Friendly Breakfast Burritos</a></li>
-        <li><a href="recipes/quesadilla.html">Sheet Pan Quesadilla with Jalapeno Ranch</a></li>
-    </ul>
+
+    <button onclick="location.href='recipes/ramen.html'" class="button">Some Tasty Ramen</button>
+    <button onclick="location.href='recipes/breakfastburrito.html'" class="button">Budget-Friendly Breakfast Burritos</button>
+    <button onclick="location.href='recipes/quesadilla.html'" class="button">Sheet Pan Quesadilla with Jalapeno Ranch</button>
+</div>
 </body>
 </html>
